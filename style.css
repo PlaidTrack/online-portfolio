@@ -20,6 +20,16 @@
   font-style: normal;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: rgb(17, 41, 52);
+  background: rgb(193, 227, 68);
+}
+
+::selection {
+  color: rgb(17, 41, 52);
+  background: rgb(193, 227, 68);
+}
+
 :root {
 	--primary-color: #FFFFFF;
 }
@@ -35,7 +45,7 @@ body {
   line-height: 1.5;
   background-image: url("media/noise-bg.png");
   background-size: 35%;
-  background-color: rgba(17, 41, 52, 0.95);
+  background-color: rgba(25, 93, 125, 0.95);
   background-blend-mode: multiply;
 }
 
@@ -61,14 +71,15 @@ h1 {
   color: var(--primary-color);
 }
 
-h3 {
-  font-family: ConcertOne-Regular;
-  line-height: 1;
-  margin: 0 0;
+h2 {
+  color: #e5e5e5;
 }
 
-h5 {
-  color: #94e344 ;
+h3 {
+  font-family: ConcertOne-Regular;
+  text-align: center;
+  line-height: 1;
+  margin: 0 0;
 }
 
 header {
@@ -76,7 +87,12 @@ header {
   width: 100%;
   padding: 0 2rem;
   z-index: 11;
-  
+}
+
+span {
+  color: rgb(193, 227, 68);
+  box-sizing: border-box;
+  font-size: 12px;
 }
 
 line {
@@ -138,7 +154,14 @@ line {
   padding: 0 20px;
   font-family: Bungee-Regular;
   text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.6);
-  
+}
+
+.profileSubHeadline {
+  font-size: 40px;
+  color: var(--primary-color);
+  vertical-align: text-top;
+  font-family: Bungee-Regular;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .action_btn {
@@ -188,6 +211,10 @@ line {
 }
 
 /* RESPONSIVE DESIGN */
+@media(max-width: 1000) {
+  
+}
+
 @media(max-width: 992px) {
   .navbar .links,
   .navbar .action_btn {
@@ -203,11 +230,13 @@ line {
   }
 }
 
+
 @media(max-width: 576px) {
   .dropdown_menu {
     left: 2rem;
     width: unset;
   }
+
 }
 
 .showcase {
@@ -326,6 +355,8 @@ line {
 
 p {
   color: #e5e5e5;
+  font-size: 18px;
+  font-family: "Open Sans";
 }
 
 #about h2 {
@@ -388,4 +419,39 @@ p {
 .about-border {
   height: 50px;
   background-color: rgba(31, 72, 126, 0);
+}
+
+.profile-body {
+  padding: 20px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 20;
+  width: 820px;
+}
+
+.block {
+  position:absolute;
+  width: 100%;
+  background-color: rgba(17, 41, 52, 0.5);
+  background-blend-mode: multiply;
+  padding: 24px;
+  clip-path: polygon(0 0,calc(100% - 20px) 0,100% 20px,100% 100%,20px 100%,0 calc(100% - 20px));
+}
+
+.logo {
+  background-image: url(media/A&M\ White\ Logo.png);
+  background-size: 94px 81px;
+  border-radius: 10px;
+  width: 94px;
+  height: 81px;
+  margin: 0 auto;
+  transition: 0.4s ease;
+  opacity: 1;
+}
+
+.logo:hover {
+  background-image: url(media/A&M\ Maroon\ Logo.png);
+  background-color: rgba(255, 255, 255, 0.3);
+  background-blend-mode: multiply;
+  scale: 1.05;
 }

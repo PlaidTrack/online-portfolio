@@ -76,7 +76,21 @@ h2 {
 }
 
 h3 {
-  font-family: ConcertOne-Regular;
+  color: rgb(193, 227, 68);
+  text-align: center;
+  line-height: 1.2;
+  margin: 0 0;
+}
+
+h4 {
+  color: var(--primary-color);
+  text-align: center;
+  line-height: 1;
+  margin: 0 0;
+}
+
+h5 {
+  color: #55dde0;
   text-align: center;
   line-height: 1;
   margin: 0 0;
@@ -355,7 +369,7 @@ line {
 
 p {
   color: #e5e5e5;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Open Sans";
 }
 

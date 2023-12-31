@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
+/* FONT FAMILIES */
+@font-face {
+  font-family: m6x11;
+  src: url(fonts/m6x11.ttf);
+}
+
+@font-face {
+  font-family: ConcertOne-Regular;
+    src: url('fonts/ConcertOne-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Bungee-Regular;
+    src: url('fonts/Bungee-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
 	--primary-color: #FFFFFF;
 }
@@ -35,10 +55,16 @@ a:hover {
 
 h1 {
   font-weight: 300;
-  font-size: 60px;
-  line-height: 1.2;
+  font-size: 100px;
+  line-height: auto;
   margin-bottom: 15px;
   color: var(--primary-color);
+}
+
+h3 {
+  font-family: ConcertOne-Regular;
+  line-height: 1;
+  margin: 0 0;
 }
 
 h5 {
@@ -56,12 +82,6 @@ header {
 line {
   background-image: url("media/noise-bg.png");
   background-size: 30%;
-}
-
-/* FONT FAMILIES */
-@font-face {
-  font-family: m6x11;
-  src: url(fonts/m6x11.ttf);
 }
 
 .navbar {
@@ -109,6 +129,16 @@ line {
   color: var(--primary-color);
   cursor: pointer;
   display: none;
+}
+
+.profileHeadline {
+  font-size: 70px;
+  border: 0;
+  margin: 0;
+  padding: 0 20px;
+  font-family: Bungee-Regular;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.6);
+  
 }
 
 .action_btn {

@@ -1,0 +1,22 @@
+main {
+  padding-top: 6rem;
+}
+
+.projects-left-body {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 10rem;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    max-height: 100vh;
+    display: flex;
+    top: 0;
+    position:sticky;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+
+    --deg: 1;
+    --x: -50%;
+    --y: -50%;
+  }

@@ -305,7 +305,7 @@ line {
     center/cover;
 }
 
-.video-container video {
+.video-container .main-video {
   min-width: 100%;
   min-height: 100%;
   object-fit: cover;

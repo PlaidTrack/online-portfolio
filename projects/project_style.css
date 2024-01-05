@@ -273,4 +273,12 @@ video::after {
     width: 32px;
     height: 32px;
     margin: 0 auto;
-  }
+}
+
+.small-vid-holder {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 350px;
+}

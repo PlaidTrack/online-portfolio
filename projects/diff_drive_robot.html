@@ -21,16 +21,31 @@
                     <li class="w3-third enlarge"><a class="link" style="text-align: center;" href="../projects.html">Projects</a></li>
                     <li class="w3-third enlarge"><a class="link" style="text-align: center;" href = "https://github.com/PlaidTrack" target="_blank">GitHub</a></li>
                 </ul>
-                <div class="toggle_btn">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
             </div>
         </header>
 
-        <div class="header-image" style='background-image: url("https://ohword.flanny.app/img/social/card.webp"); transform: translateY(0px);'>
-            <video autoplay loop muted poster="../media/project_tumbnails/driving_sim.png">
-                <source src="../media/robot_simulation_cave.mp4" type="video/mp4">
-            </video>
+        <div class="style-module--header-image--aR+D+"></div>
+        
+        <div id="video_overlays"></div>
+        <div class="header-image" style="background-image: url(../media/robot_simulation_first_frame.png);">
+            <video src="../media/robot_simulation_cave_1.mp4" autoplay muted="muted" loop type="video/mp4"></video>
+        </div>
+
+        <div class="style-module--blog-container--6tBtJ">
+            <div class="style-module--blog-container-back--AwUns">
+                <div class="style-module--post-content--N3zzT">
+                    <div class="profileSubHeadline" style="color: #FFFFFF; padding: 0;">Differential Drive Robot Simulator</div>
+                    <p>A reactive control system</p>
+                    <div class="date" style="margin-top: 8px;">December 2023</div>
+                    <br>
+
+                    <p>I wanted to expand my knowledge of ROS2 and control architectures, so I create simulated movement through
+                        tight corridors. Because it's a purely reactive control system, it operates without any prior knowledge of 
+                        its environment. To do this, we create nodes that publishes data such as scanning  data and wheel 
+                        velocity, which will be sent to a graphical interface so we can see our robot move autonomously.
+                    </p>
+                </div>
+            </div>
         </div>
     </body>
 </html>

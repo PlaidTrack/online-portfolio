@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="w3.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <title>Alexander Gonzales</title>
+        
 
     </head>
     <body>
@@ -50,8 +51,8 @@
             
             <div class="content">
                 <div class="profileHeadline">Alexander Gonzales</div>
-                <h3 style="font-family: Open Sans; margin-top: 0;">Computer Scientister</h3>
-                <a href="#about" class="btn">Read More</a>
+                <h3 style="font-family: Open Sans; margin-top: 0;">Graphics Programming</h3>
+                <a href="#read_more" class="btn">Read More</a>
             </div>
 
             
@@ -78,7 +79,7 @@
 
         <div class="w3-row" style="position: relative; border:1px solid #173E49; background-color: rgba(17, 41, 52, 0.7); background-blend-mode: multiply;">
             <div class="w3-half" style="max-width: 1000px; margin: auto;">
-                <svg class="top-curve" viewBox="0 0 100 4">
+                <svg class="top-curve" viewBox="0 0 100 4" style="z-index: 10000px;">
                     <path d=" M 0 0 C 20 3, 80 3, 100 0 L 100 0 L 0 0 " fill="#173E49"></path>
                 </svg>
                 <svg class="btm-curve" viewBox="0 0 100 3">
@@ -86,16 +87,20 @@
                 </svg>
                 
                 <script src="autoslideshow.js"></script>
-                <div class="myAutoSlides">
+                <div class="myAutoSlides" >
                     <img src="media/alexander_gonzales_portrait_alt.JPG" style="width: 100%; height: 100%; object-fit: cover;">
                 </div>
             </div>
 
-            <div class="w3-half" style="max-width: 1000px; margin: auto;">
+            <div id="read_more" class="w3-half" style="max-width: 1000px; margin: auto;">
                 <div style="padding: 50px 24px;">
                     <span>HOWDY! MY NAME IS</span>
                     <div class="profileSubHeadline">ALEXANDER GONZALES</div>
-                    <p>Welcome to my page, enjoy your stay and make yourself at home!</p>
+                    <p style="font-size: 18px;">I am a student from Texas A&M University, and I'm currently pursuing a bachelor's degree in Computer Science. 
+                        When it comes to programming, I learn both in and out of class, utilizing the many programming languages and 
+                        software at my disposal. In particular, I enjoy using my knowledge on graphics programming to develop software.</p>
+                        <br>
+                    <p style="font-size: 18px;">Whenever I'm not typing away on my programs, you can find me doing cross-country, baking a delicious dish, or typing away (alternatively) on Minecraft.</p>
                 </div>
             </div>
             
@@ -109,9 +114,9 @@
             </div>
             <div class="skills-body">
                 <div class="profileSubHeadline">EXPERIENCE</div>
-                <p>I'm currently an undergraduate at Texas A&M University, and will soon receive my 
-                    Bachelor's in Computer Science by the end of the spring semester. Details on 
-                    education, work experience, and skills can be found below, with my resume also 
+                <hr style="height:1px; border-width:2px; border-color:#173E49; background-color:#173E49">
+                <p style="font-size: 18px;">Here you can find details on my  
+                    education, work experience, and skills below, with my resume also 
                     being available in <a class="link" href="media/Alexander G Gonzales Resume.pdf" target="_blank">PDF form</a>.</p>
             </div>
             <div class="experience-body">
@@ -161,9 +166,206 @@
             </div>
             <div class="skills-body">
                 <div class="profileSubHeadline">SKILLS</div>
+                <hr style="height:1px; border-width:2px; border-color:#173E49; background-color:#173E49">
                 <div class="w3-row block">
+                    <div class="w3-row">
+                        <div class="skill-title-box" style="background-color: rgba(18, 36, 43, 0.855);">
+                            <div class="skill-rating" style="padding-top: 24px;">
+                                <div class="skill-logo" style="background-image: url(media/web-programming.png);"></div>
+                                <p style="font-family: Bungee-Regular; font-size: 24px; padding-top: 4px;">Scripts</p>
+                            </div>
+                        </div>
+                        <div class="skill-box skill-python">
+                            <div class="skill-rating">
+                                <p>&#x25C6&#x25C6&#x25C6&#x25C6&#x25C7</p>
+                                <p style="font-family: Bungee-Regular;">Python</p>
+                            </div>
+                        </div>
+                        <div class="skill-box skill-java">
+                            <div class="skill-rating">
+                                <p>&#x25C6&#x25C6&#x25C6&#x25C7&#x25C7</p>
+                                <p style="font-family: Bungee-Regular;">Java</p>
+                            </div>
+                        </div>
+                        <div class="skill-box skill-c_plus_plus">
+                            <div class="skill-rating">
+                                <p>&#x25C6&#x25C6&#x25C6&#x25C6&#x25C7</p>
+                                <p style="font-family: Bungee-Regular;">C++</p>
+                            </div>
+                        </div>
+                        <div class="skill-box skill-c_sharp">
+                            <div class="skill-rating">
+                                <p>&#x25C6&#x25C6&#x25C6&#x25C7&#x25C7</p>
+                                <p style="font-family: Bungee-Regular;">C#</p>
+                            </div>
+                        </div>
+                        <div class="skill-box skill-html">
+                            <div class="skill-rating">
+                                <p>&#x25C6&#x25C6&#x25C6&#x25C7&#x25C7</p>
+                                <p style="font-family: Bungee-Regular;">HTML</p>
+                            </div>
+                        </div>
+                        <div class="skill-box skill-css">
+                            <div class="skill-rating">
+                                <p>&#x25C6&#x25C6&#x25C6&#x25C7&#x25C7</p>
+                                <p style="font-family: Bungee-Regular;">CSS</p>
+                            </div>
+                        </div>
+                        <div class="skill-box skill-javascript">
+                            <div class="skill-rating">
+                                <p>&#x25C6&#x25C6&#x25C7&#x25C7&#x25C7</p>
+                                <p style="font-family: Bungee-Regular;">JavaScript</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-row" style="margin-top: 16px;">
+                        <div class="skill-title-box" style="background-color: #042404ec;">
+                            <div class="skill-rating" style="padding-top: 24px;">
+                                <div class="skill-logo" style="background-image: url(media/computer.png);"></div>
+                                <p style="font-family: Bungee-Regular; font-size: 24px; padding-top: 4px;">Tools</p>
+                            </div>
+                        </div>
+                        <div class="skill-box skill-vs-code">
+                            <div class="skill-rating">
+                                <p>&#x25C6&#x25C6&#x25C6&#x25C6&#x25C7</p>
+                                <p style="font-family: Bungee-Regular;">VS Code</p>
+                            </div>
+                        </div>
+                        <div class="skill-box skill-blender">
+                            <div class="skill-rating">
+                                <p>&#x25C6&#x25C6&#x25C7&#x25C7&#x25C7</p>
+                                <p style="font-family: Bungee-Regular;">Blender</p>
+                            </div>
+                        </div>
+                        <div class="skill-box skill-photoshop">
+                            <div class="skill-rating">
+                                <p>&#x25C6&#x25C6&#x25C7&#x25C7&#x25C7</p>
+                                <p style="font-family: Bungee-Regular; font-size: 11px;">Adobe Photoshop</p>
+                            </div>
+                        </div>
+                        <div class="skill-box skill-premiere">
+                            <div class="skill-rating">
+                                <p>&#x25C6&#x25C6&#x25C6&#x25C6&#x25C7</p>
+                                <p style="font-family: Bungee-Regular; font-size: 12px;">Adobe Premiere</p>
+                            </div>
+                        </div>
+                        <div class="skill-box skill-unity">
+                            <div class="skill-rating">
+                                <p>&#x25C6&#x25C6&#x25C6&#x25C6&#x25C7</p>
+                                <p style="font-family: Bungee-Regular;">Unity</p>
+                            </div>
+                        </div>
+                        <div class="skill-box skill-unreal">
+                            <div class="skill-rating">
+                                <p>&#x25C6&#x25C6&#x25C7&#x25C7&#x25C7</p>
+                                <p style="font-family: Bungee-Regular; font-size: 12px;">Unreal Engine</p>
+                            </div>
+                        </div>
+                        <div class="skill-box skill-gamemaker">
+                            <div class="skill-rating">
+                                <p>&#x25C6&#x25C6&#x25C6&#x25C7&#x25C7</p>
+                                <p style="font-family: Bungee-Regular;">GameMaker</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-row" style="margin-top: 16px;">
+                        <div class="skill-title-box" style="background-color: #3e1f0eec;">
+                            <div class="skill-rating" style="padding-top: 24px;">
+                                <div class="skill-logo" style="background-image: url(media/cloud-computing.png);"></div>
+                                <p style="font-family: Bungee-Regular; font-size: 24px; padding-top: 4px;">Services</p>
+                            </div>
+                        </div>
+                        <div class="skill-box skill-aws">
+                            <div class="skill-rating">
+                                <p>&#x25C6&#x25C6&#x25C6&#x25C7&#x25C7</p>
+                                <p style="font-family: Bungee-Regular;">AWS</p>
+                            </div>
+                        </div>
+                        <div class="skill-box skill-heroku">
+                            <div class="skill-rating">
+                                <p>&#x25C6&#x25C7&#x25C7&#x25C7&#x25C7</p>
+                                <p style="font-family: Bungee-Regular;">Heroku</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-row" style="margin-top: 16px;">
+                        <div class="skill-title-box" style="background-color: #4a3900da;">
+                            <div class="skill-rating" style="padding-top: 24px;">
+                                <div class="skill-logo" style="background-image: url(media/language.png);"></div>
+                                <p style="font-family: Bungee-Regular; font-size: 18px; padding-top: 4px;">Linguistics</p>
+                            </div>
+                        </div>
+                        <div class="skill-box skill-english">
+                            <div class="skill-rating">
+                                <p>&#x25C6&#x25C6&#x25C6&#x25C6&#x25C6</p>
+                                <p style="font-family: Bungee-Regular;">English</p>
+                            </div>
+                        </div>
+                        <div class="skill-box skill-spanish">
+                            <div class="skill-rating">
+                                <p>&#x25C6&#x25C6&#x25C7&#x25C7&#x25C7</p>
+                                <p style="font-family: Bungee-Regular;">Spanish</p>
+                            </div>
+                        </div>
+                        <div class="skill-box skill-german">
+                            <div class="skill-rating">
+                                <p>&#x25C6&#x25C6&#x25C7&#x25C7&#x25C7</p>
+                                <p style="font-family: Bungee-Regular;">German</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <div class="skills-body">
+                <div class="profileSubHeadline">CONTACTS</div>
+                <hr style="height:1px; border-width:2px; border-color:#173E49; background-color:#173E49">
+                <div class="w3-row block" style="margin-left: 10%; width: 80%;">
+                    <div class="w3-half">
+                        <div style="width: 420px; margin-left: 20%; margin-top: 5%">
+                            <div class="w3-row">
+                                <p style="font-size: 16px;">I am currently seeking new and challenging opportunities in the field of software development, 
+                                    if you are interested in reaching out you can visit my socials and contacts below!</p>
+                                <br>
+                            </div>
+                            <div class="w3-row">
+                                <div class="w3-quarter" style="width: 16.99999%;">
+                                    <div class="link-logo-lg" style="background-image: url(media/email.png);"></div>
+                                </div>
+                                <div style="padding-top: 4px; width: 100%;">
+                                    <div class="date" style="font-weight: bold;"><a class="link" href="mailto:agonzales98769@gmail.com">Email</a></div>
+                                </div>
+                            </div>
+                            <div class="w3-row" style="margin-top:16px;">
+                                <div class="w3-quarter" style="width: 16.99999%;">
+                                    <div class="link-logo-lg" style="background-image: url(media/phone.png);"></div>
+                                </div>
+                                <div style="padding-top: 8px; width: 100%;">
+                                    <div class="date" style="font-size: 18px; font-weight: bold;">(210) 710-8798</div>
+                                </div>
+                            </div>
+                            <div class="w3-row" style="margin:16px 0;">
+                                <div class="w3-quarter" style="width: 16.99999%;">
+                                    <div class="link-logo-lg" style="background-image: url(media/linkedIn.png);"></div>
+                                </div>
+                                <div style=" width: 100%;">
+                                    <div class="date" style="font-size: 22px; font-weight: bold;"><a class="link" target="_blank" href="https://www.linkedin.com/in/alexander-gonzales-638a81168/">Linkedin</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-half" style="vertical-align: top;">
+                        <div class="block" style="margin-left: 128px; width: 300px; height: 400px; padding: 32px;">
+                            <img src="media/alex_future.png" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-body">
+                
+            </div>
+
 
         </div>
         <div class="w3-row">
@@ -176,12 +378,27 @@
             <svg class="top-curve" viewBox="0 0 100 3">
                 <path d=" M -1 3 C 20 0, 80 0, 100 3 L 100 0 L 0 0 L 0 3 " fill="#173E49"></path>
             </svg>
-            <div class="w3-container footer w3-large" style="height:270px; padding: 20px 75px;">
-              <h2>Skills</h2>
-              <p style="font-size:20px;"><i class="fa fa-phone" style="width:40px;"></i>(210) 710-8798</p>
-              <p style="font-size:20px;"><i class="fa fa-envelope" style="width:40px"></i><a href = "mailto: agonzales98769@gmail.com" style="color:#44A6C6; text-decoration: none">agonzales98769@gmail.com</a></p>
-              <p style="font-size:20px;"><i class="fa fa-linkedin" style="width:40px"></i><a href = "https://www.linkedin.com/in/alexander-gonzales-638a81168/" target="_blank" style="color:#44A6C6; text-decoration: none">linkedin.com/in/alexander-gonzales</a></p>
-            </div>
-          </div>
+            <div class="w3-container footer w3-large" style="height:180px; padding: 48px 75px;">
+                <div class="footer-text">
+                    <div class="w3-row">
+                        <div class="w3-half" style="text-align: right; padding-right: 18px;">
+                            <p style="font-size:18px;">Website developed by Alexander Gonzales, available on <a class="link" style="font-size: 18px;" href = "https://github.com/PlaidTrack/online-portfolio" target="_blank">GitHub</a></p>
+                        </div>
+                        <div class="w3-half" style="text-align: left;  padding-left: 18px;">
+                            <p style="font-size:18px;">Enjoy my website? Feel free to take a look at my <a class="link" style="font-size: 18px;" href = "https://www.cs412agonzales.xyz/" target="_blank">older version</a>!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-text" style="margin-top: 32px;">
+                    <div class="w3-row">
+                        <p style="font-size:18px;">Icons provided by <a class="link" style="font-size: 18px;" href = "https://www.flaticon.com/authors/pixel-perfect" target="_blank">Pixel perfect</a>, 
+                            <a class="link" style="font-size: 18px;" href = "https://www.flaticon.com/authors/orvipixel" target="_blank">orvipixel</a>, 
+                            <a class="link" style="font-size: 18px;" href = "https://www.flaticon.com/authors/hilmy-abiyyu-a" target="_blank">Hilmy Abiyyu A.</a>, and 
+                            <a class="link" style="font-size: 18px;" href = "https://www.flaticon.com/free-icons/cms" target="_blank">Freepik</a>
+                        </p>
+                    </div>
+                </div>
+              </div>
+        </div>
     </body>
 </html>

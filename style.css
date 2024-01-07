@@ -475,6 +475,17 @@ p {
   background-blend-mode: multiply;
 }
 
+.footer-text {
+  margin: 0 12px;
+  opacity: .5;
+  text-align: center;
+  transition: .2s;
+}
+
+.footer-text:hover {
+  opacity: 1;
+}
+
 .style-module--blog-footer--5p16d {
   background:rgba(28,28,28,.941);
   bottom:0;
@@ -513,3 +524,108 @@ p {
 .style-module--footer--MKY-D .style-module--text-holder--G4Mh6:hover {
   opacity:.9;
 }
+
+.skill-title-box {
+  margin-left:4px;
+  display: inline-block;
+  width: 180px;
+  height: 160px;
+  background-image: url("media/noise-bg.png");
+  background-size: 200%;
+  background-blend-mode: multiply;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.9) inset, 0 -10px 15px rgba(0, 0, 0, 0.9) inset;
+}
+
+.skill-box {
+  margin-left:8px;
+  vertical-align: top; 
+  display: inline-block;
+  width: 130px;
+  height: 160px;
+  border: #fff;
+  border-width: 2px;
+  background-blend-mode: multiply;
+  background-size: 100%;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.9) inset, 0 -20px 20px rgba(0, 0, 0, 0.9) inset;
+  transition: 0.4s ease;
+}
+
+.skill-box:hover {
+  scale: 1.05;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #FFFFFF;
+}
+
+.link-logo {
+  background-size: 32px 32px;
+  border-radius: 10px;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+}
+
+.link-logo-lg {
+  background-size: 36px 36px;
+  width: 36px;
+  height: 36px;
+  margin: 0 auto;
+}
+
+.skill-logo {
+  background-size: 96px 96px;
+  padding-top: 8px;
+  border-radius: 10px;
+  width: 96px;
+  height: 96px;
+  margin: 0 auto;
+}
+
+.skill-python { background-color: #1581AAc0; background-image: url(media/skills/python_bw.png); }
+.skill-python:hover { background-image: url(media/skills/python.png); background-color: rgba(255, 255, 255, 0); }
+.skill-java { background-color: #1581AAc0; background-image: url(media/skills/java_bw.png); }
+.skill-java:hover { background-image: url(media/skills/java.png); background-color: rgba(255, 255, 255, 0); }
+.skill-c_plus_plus { background-color: #1581AAc0; background-image: url(media/skills/c_plus_pluss_bw.png); }
+.skill-c_plus_plus:hover { background-image: url(media/skills/c_plus_pluss.png); background-color: rgba(255, 255, 255, 0); }
+.skill-c_sharp { background-color: #1581AAc0; background-image: url(media/skills/c_sharp_bw.png); }
+.skill-c_sharp:hover { background-image: url(media/skills/c_sharp.png); background-color: rgba(255, 255, 255, 0); }
+.skill-html { background-color: #1581AAc0; background-image: url(media/skills/html_bw.png); }
+.skill-html:hover { background-image: url(media/skills/html.png); background-color: rgba(255, 255, 255, 0); }
+.skill-css { background-color: #1581AAc0; background-image: url(media/skills/css_bw.png); }
+.skill-css:hover { background-image: url(media/skills/css.png); background-color: rgba(255, 255, 255, 0); }
+.skill-javascript { background-color: #1581AAc0; background-image: url(media/skills/javascript_bw.png); }
+.skill-javascript:hover { background-image: url(media/skills/javascript.png); background-color: rgba(255, 255, 255, 0); }
+
+.skill-vs-code { background-color: #006B00c0; background-image: url(media/skills/vs_code_bw.png); }
+.skill-vs-code:hover { background-image: url(media/skills/vs_code.png); background-color: rgba(255, 255, 255, 0); }
+.skill-blender { background-color: #006B00c0; background-image: url(media/skills/blender_bw.png); }
+.skill-blender:hover { background-image: url(media/skills/blender.png); background-color: rgba(255, 255, 255, 0); }
+.skill-photoshop { background-color: #006B00c0; background-image: url(media/skills/photoshop_bw.png); }
+.skill-photoshop:hover { background-image: url(media/skills/photoshop.png); background-color: rgba(255, 255, 255, 0); }
+.skill-premiere { background-color: #006B00c0; background-image: url(media/skills/premiere_bw.png); }
+.skill-premiere:hover { background-image: url(media/skills/premiere.png); background-color: rgba(255, 255, 255, 0); }
+.skill-unity { background-color: #006B00c0; background-image: url(media/skills/unity_bw.png); }
+.skill-unity:hover { background-image: url(media/skills/unity.png); background-color: rgba(255, 255, 255, 0); }
+.skill-unreal { background-color: #006B00c0; background-image: url(media/skills/unreal_bw.png); }
+.skill-unreal:hover { background-image: url(media/skills/unreal.png); background-color: rgba(255, 255, 255, 0); }
+.skill-gamemaker { background-color: #006B00c0; background-image: url(media/skills/gamemaker_bw.png); }
+.skill-gamemaker:hover { background-image: url(media/skills/gamemaker.png); background-color: rgba(255, 255, 255, 0); }
+
+.skill-aws { background-color: #C24300c0; background-image: url(media/skills/aws_bw.png); }
+.skill-aws:hover { background-image: url(media/skills/aws.png); background-color: rgba(255, 255, 255, 0); }
+.skill-heroku { background-color: #C24300c0; background-image: url(media/skills/heroku_bw.png); }
+.skill-heroku:hover { background-image: url(media/skills/heroku.png); background-color: rgba(255, 255, 255, 0); }
+
+.skill-english { background-image: url(media/skills/english_bw.png); background-color: #FFC500c0; transition: 0.4s ease; }
+.skill-english:hover { background-image: url(media/skills/english.png); background-color: rgba(255, 255, 255, 0); }
+.skill-spanish { background-image: url(media/skills/spanish_bw.png); background-color: #FFC500c0; transition: 0.4s ease; }
+.skill-spanish:hover { background-image: url(media/skills/spanish.png); background-color: rgba(255, 255, 255, 0); }
+.skill-german { background-image: url(media/skills/german_bw.png); background-color: #FFC500c0; transition: 0.4s ease; }
+.skill-german:hover { background-image: url(media/skills/german.png); background-color: rgba(255, 255, 255, 0); }
+
+.skill-rating {
+  line-height: 1.2rem;
+  padding-top: 120px;
+  text-align: center;
+}
+

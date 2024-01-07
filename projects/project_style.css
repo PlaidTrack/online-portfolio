@@ -267,14 +267,6 @@ video::after {
     z-index: 2;
 }
 
-.link-logo {
-    background-size: 32px 32px;
-    border-radius: 10px;
-    width: 32px;
-    height: 32px;
-    margin: 0 auto;
-}
-
 .small-vid-holder {
     background-position: center;
     background-repeat: no-repeat;

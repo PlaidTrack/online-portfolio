@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="w3.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <title>Alexander Gonzales</title>
+        <link rel="icon" type="image/png" href="media/alex_icon.png" sizes="32x32">
 
     </head>
     <body>
@@ -30,16 +31,9 @@
             <div class="w3-half projects-left-body">
                 <div class="left-block">
                     <div class="profileHeadline" style="color: #FFFFFF; padding: 0;">Projects</div>
-                    <p>Here you can find my various projects over the years and lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                        aliqua. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis. Magnis dis 
-                        parturient montes nascetur ridiculus mus mauris vitae. Id interdum velit laoreet id 
-                        donec ultrices tincidunt. A iaculis at erat pellentesque adipiscing commodo elit at. 
-                        Ultrices in iaculis nunc sed augue lacus viverra. Ut sem viverra aliquet eget. Luctus 
-                        accumsan tortor posuere ac ut. Sit amet luctus venenatis lectus magna. Nunc lobortis mattis 
-                        aliquam faucibus purus in. Integer vitae justo eget magna. Sit amet dictum sit amet justo. 
-                        Lorem ipsum dolor sit amet. Pellentesque sit amet porttitor eget dolor. Et ligula ullamcorper 
-                        malesuada proin.
+                    <p>Here you can find the projects I've worked on over the years, which including programs, videos 
+                        and miscellaneous things. They were developed either as a personal project, academic work 
+                        and work items from my current job. Each section is listed in chronological order.
                     </p>
     
                     <div class="hidden-block">
@@ -66,7 +60,7 @@
             </div>
 
             <div class="w3-half projects-right-body">
-                <div class="profileSubHeadline" style="height: auto; padding-top: 40px;">Software</div>
+                <div id="software" class="profileSubHeadline" style="height: auto; padding-top: 40px;">Software</div>
 
                 <div class="box-holder">
 
@@ -115,7 +109,7 @@
                             <div class="project-inner-box">
                                 <div class="project-description-box">
                                     <div class="projectTitle">Driving Simulation</div>
-                                    <p>A simple top-down hack and slash</p>
+                                    <p>A look into autonomous driving</p>
                                     <div class="date">May 2023</div>
                                     <ul class="skill-bloop-box">
                                         <li class="skill-bloop-item">
@@ -164,7 +158,7 @@
                                     <div class="date">February 2023</div>
                                     <ul class="skill-bloop-box">
                                         <li class="skill-bloop-item">
-                                            <div class="skill-bloop">Unity 2D</div>
+                                            <div class="skill-bloop">Unity</div>
                                         </li>
                                         <li class="skill-bloop-item">
                                             <div class="skill-bloop">C#</div>
@@ -176,7 +170,7 @@
                     </div>
 
                     <div class="project-outer-box" style="background-image: url(media/project_tumbnails/terrain_navigation.png); background-size: 50%; background-position-y: 80%; background-repeat: repeat;">
-                        <a href="index.html" class="project-card-link">
+                        <a href="projects/terrain_navigation.html" class="project-card-link">
                             <div class="project-inner-box">
                                 <div class="project-description-box">
                                     <div class="projectTitle">Dynamic Terrain Navigation</div>
@@ -207,7 +201,7 @@
                                     <div class="date">October 2022</div>
                                     <ul class="skill-bloop-box">
                                         <li class="skill-bloop-item">
-                                            <div class="skill-bloop">Unity 3D</div>
+                                            <div class="skill-bloop">Unity</div>
                                         </li>
                                         <li class="skill-bloop-item">
                                             <div class="skill-bloop">C#</div>
@@ -230,7 +224,7 @@
                                     <div class="date">August 2022</div>
                                     <ul class="skill-bloop-box">
                                         <li class="skill-bloop-item">
-                                            <div class="skill-bloop">Unity 2D</div>
+                                            <div class="skill-bloop">Unity</div>
                                         </li>
                                         <li class="skill-bloop-item">
                                             <div class="skill-bloop">C#</div>
@@ -242,7 +236,7 @@
                     </div>
 
                     <div class="project-outer-box" style="background-image: url(media/project_tumbnails/CIBS_front_page.png); background-size: 45%; background-position-x: -5%; background-repeat: repeat;">
-                        <a href="index.html" class="project-card-link">
+                        <a href="projects/nomination_exchange.html" class="project-card-link">
                             <div class="project-inner-box">
                                 <div class="project-description-box">
                                     <div class="projectTitle">Nomination Exchange Website</div>
@@ -251,6 +245,12 @@
                                     <ul class="skill-bloop-box">
                                         <li class="skill-bloop-item">
                                             <div class="skill-bloop">Ruby on Rails</div>
+                                        </li>
+                                        <li class="skill-bloop-item">
+                                            <div class="skill-bloop">Heroku</div>
+                                        </li>
+                                        <li class="skill-bloop-item">
+                                            <div class="skill-bloop">PostgreSQL</div>
                                         </li>
                                         <li class="skill-bloop-item">
                                             <div class="skill-bloop">HTML</div>
@@ -264,57 +264,39 @@
                         </a>
                     </div>
 
-                    <div class="profileSubHeadline">Videography</div>
+                    <div id="videography" class="profileSubHeadline">Videography</div>
 
                     <div class="project-outer-box" style="background-image: url(media/project_tumbnails/student_spotlight.png); background-size: 60%; background-position-x: -20%; background-repeat: repeat;">
-                        <a href="index.html" class="project-card-link">
+                        <a href="projects/student_spotlights.html" class="project-card-link">
                             <div class="project-inner-box">
                                 <div class="project-description-box">
                                     <div class="projectTitle">Rec Student Spotlight Series</div>
-                                        <p>An event of sorts</p>
-                                        <div class="date">September 2023</div>
-                                        <ul class="skill-bloop-box">
-                                            <li class="skill-bloop-item">
-                                                <div class="skill-bloop">Adobe Premiere</div>
-                                            </li>
-                                        </li>
-                                    </ul>
+                                        <p>A highlight of outstanding students at the Rec</p>
+                                        <div class="date">December 2023</div>
                                 </div>
                             </div>
                         </a>
                     </div>
 
                     <div class="project-outer-box" style="background-image: url(media/project_tumbnails/rec-a-palooza_recap.png); background-size: 40%; background-repeat: repeat;">
-                        <a href="index.html" class="project-card-link">
+                        <a href="https://youtu.be/SsW0vN8s448" target="_blank" class="project-card-link">
                             <div class="project-inner-box">
                                 <div class="project-description-box">
                                     <div class="projectTitle">Rec-a-Palooza Recap</div>
-                                        <p>An event of sorts</p>
-                                        <div class="date">September 2023</div>
-                                        <ul class="skill-bloop-box">
-                                            <li class="skill-bloop-item">
-                                                <div class="skill-bloop">Adobe Premiere</div>
-                                            </li>
-                                        </li>
-                                    </ul>
+                                        <p>A facility-wide event for returning students</p>
+                                        <div class="date">August 2023</div>
                                 </div>
                             </div>
                         </a>
                     </div>
 
                     <div class="project-outer-box" style="background-image: url(media/project_tumbnails/clue_at_the_rec.png); background-size: 40%; background-repeat: repeat;">
-                        <a href="index.html" class="project-card-link">
+                        <a href="https://www.youtube.com/watch?v=WKaCKggZ0Gw" target="_blank" class="project-card-link">
                             <div class="project-inner-box">
                                 <div class="project-description-box">
-                                    <div class="projectTitle">Boxing Bootcamp</div>
-                                    <p>An event of sorts</p>
-                                    <div class="date">May 2023</div>
-                                    <ul class="skill-bloop-box">
-                                        <li class="skill-bloop-item">
-                                            <div class="skill-bloop">Adobe Premiere</div>
-                                        </li>
-                                    </li>
-                                    </ul>
+                                    <div class="projectTitle">Clue at the Rec</div>
+                                    <p>A murder mystery at the recreational center</p>
+                                    <div class="date">April 2023</div>
                                 </div>
                             </div>
                         </a>
@@ -324,33 +306,21 @@
                         <a href="https://www.youtube.com/watch?v=4u_7NQc7KPY" target="_blank" class="project-card-link">
                             <div class="project-inner-box">
                                 <div class="project-description-box">
-                                    <div class="projectTitle">Boxing Bootcamp</div>
-                                    <p>An event of sorts</p>
+                                    <div class="projectTitle">Sport Clubs Standard of Conduct</div>
+                                    <p>Rules for maintaining club integrity</p>
                                     <div class="date">February 2023</div>
-                                    <ul class="skill-bloop-box">
-                                        <li class="skill-bloop-item">
-                                            <div class="skill-bloop">Adobe Premiere</div>
-                                        </li>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </a>
                     </div>
 
                     <div class="project-outer-box" style="background-image: url(media/project_tumbnails/boxing_bootcamp.png); background-size: 40%; background-repeat: repeat;">
-                        <a href="index.html" class="project-card-link">
+                        <a href="https://youtu.be/tlhqRzX0n7Q" target="_blank" class="project-card-link">
                         <div class="project-inner-box">
                             <div class="project-description-box">
                                     <div class="projectTitle">Boxing Bootcamp</div>
                                     <p>An event of sorts</p>
-                                    <div class="date">January 2021</div>
-                                    <ul class="skill-bloop-box">
-                                        <li class="skill-bloop-item">
-                                            <div class="skill-bloop">Adobe Premiere</div>
-                                        </li>
-                                        </li>
-                                    </ul>
+                                    <div class="date">August 2022</div>
                                 </div>
                             </div>
                         </a>
@@ -361,32 +331,25 @@
                             <div class="project-inner-box">
                                 <div class="project-description-box">
                                     <div class="projectTitle">Super OP Waluigi World - Release Trailer</div>
-                                    <p>Learning the ropes of Adobe Premiere</p>
+                                    <p>Mario Maker video for my brother</p>
                                     <div class="date">January 2021</div>
-                                    <ul class="skill-bloop-box">
-                                        <li class="skill-bloop-item">
-                                            <div class="skill-bloop">Adobe Premiere</div>
-                                        </li>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </a>
                     </div>
                     
-                    <div class="profileSubHeadline">Misc</div>
+                    <div id="misc" class="profileSubHeadline">Misc</div>
 
-                    <div class="project-outer-box" style="background-image: url(media/project_tumbnails/op_waluigi_world.png); background-size: 40%; background-position-x: -5%; background-repeat: repeat;">
-                        <a href="https://www.youtube.com/watch?v=EUoayf0YDLU" target="_blank" class="project-card-link">
+                    <div class="project-outer-box" style="background-image: url(media/project_tumbnails/red_helmet.jpg); background-size: 45%;  background-position-y: 70%; background-repeat: repeat;">
+                        <a href="projects/red_helmet.html" class="project-card-link">
                             <div class="project-inner-box">
                                 <div class="project-description-box">
-                                    <div class="projectTitle">Super OP Waluigi World - Release Trailer</div>
-                                    <p>Learning the ropes of Adobe Premiere</p>
-                                    <div class="date">January 2021</div>
+                                    <div class="projectTitle">Red helmet</div>
+                                    <p>A headpiece for cosplay</p>
+                                    <div class="date">October 2023</div>
                                     <ul class="skill-bloop-box">
                                         <li class="skill-bloop-item">
-                                            <div class="skill-bloop">Adobe Premiere</div>
-                                        </li>
+                                            <div class="skill-bloop">CAD</div>
                                         </li>
                                     </ul>
                                 </div>
